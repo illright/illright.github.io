@@ -189,10 +189,10 @@ ReturnType function_name() {}
 ```cpp
 struct Player
 {
-    Player(string name)
-    {
-        cout << "Hello, " << name << endl;
-    }
+  Player(string name)
+  {
+    cout << "Hello, " << name << endl;
+  }
 };
 ```
 
