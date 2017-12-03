@@ -1,0 +1,33 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400);
+
+body {
+  font-family: 'Ubuntu';
+  line-height: 25px;
+}
+
+h1, h2, h3 {
+  font-family: 'Ubuntu';
+  font-weight: normal;
+  line-height: 40px;
+}
+
+h1 {
+  margin: 15px 0;
+}
+
+h4, h5, h6 {
+  margin: 10px 0;
+}
+
+img {
+  width: 100% !important;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+.remark-code, .remark-inline-code {
+  font-family: 'Ubuntu Mono';
+}
