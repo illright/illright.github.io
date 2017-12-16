@@ -977,7 +977,7 @@ class Warrior(Player):
 ```python
 class Empty:
     def __init__(self):
-        if hasattr(self, something):
+        if hasattr(self, 'something'):
             print(self.something)
 
 class NotEmpty(Empty):
@@ -1107,7 +1107,7 @@ class Derived(Base1, Base2):
     d = 1337
 
 obj = Derived()
-print(obj.a, obj.b, obj.c, obj.d)  # 3 2 4 1337
+print(obj.a, obj.b, obj.c, obj.d)  # 1 2 4 1337
 ```
 
 ---
